@@ -1,3 +1,1 @@
-var canvas = new fabric.Canvas("canvas");
-
-canvas.
+var canvas = new fabric.Canvas("target");
