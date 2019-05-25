@@ -1,21 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
   <meta charset="UTF-8">
-  <title>DarkroomJS</title>
+	<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no">
+  <title>EduApps Editor</title>
   <link rel="stylesheet" href="./build/darkroom.css">
   <link rel="stylesheet" href="./css/page.css">
 </head>
 <body>
   <div id="toolbar">
-	<a href="#home"><u>N</u>ovo</a>
-	<a href="#news">News</a>
-	<a href="#contact">Contact</a>
+	<a href="#" id="act-archive"><u>A</u>rquivo</a>
+	<a href="#" id="act-edit"><u>E</u>ditar</a>
+	<a href="#" id="act-option"><u>O</u>pções</a>
+  </div>
+  <div id="actions">
+	<div id="opt-archive" class="opt">
+	  <a href="#" id="archive-new"><u>N</u>ovo</a> 
+	</div>
   </div>
   <div id="content">
     <div class="container">
       <section class="copy">
         <div class="figure-wrapper">
+		  <div class="line-vertical">s</div>
           <figure class="image-container target">
             <!--img src="./images/domokun-big.jpg" alt="DomoKun" id="target">
 
@@ -27,7 +34,7 @@
                 <em class="image-meta-author">Ben Torode</em>
               </a>
             </figcaption-->
-			
+			<b>Object Movement</b>
 			<canvas id="target">
 			  <H1>Erro</H1>
 			  Não foi possivel visualizar a imagem pois sua WebView está desatualizada!
@@ -44,5 +51,6 @@
   <script src="./js/caman-code.js"></script>
   <script src="./js/darkroom-code.js"></script-->
   <script src="./js/fabric-code.js"></script>
+  <script src="./js/code.js"></script>
 </body>
 </html>
